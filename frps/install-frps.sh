@@ -14,8 +14,8 @@ program_download_url="https://code.aliyun.com/clangcn/frp/raw/master"
 program_version="0.9.3"
 program_init="/etc/init.d/${program_name}"
 program_config_file="frps.ini"
-program_init_download_url=https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/frps.init
-str_install_shell=https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh
+program_init_download_url=https://raw.githubusercontent.com/zhaokelei/frps/master/frps/frps.init
+str_install_shell=https://raw.githubusercontent.com/zhaokelei/frps/master/frps/install-frps.sh
 shell_update(){
     fun_clangcn "clear"
     echo "Check updates for shell..."
